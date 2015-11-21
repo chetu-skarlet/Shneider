@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ScheiderElectric</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+</head>
+<body>
+<div data-role="page" id="inicio">
+        <div data-role="header">
+        <h1>Register</h1>
+        </div>
+        <div data-role="content">
+        	<form id="formulario">
+   			<table border="0">
+            <tr>
+            <td colspan="2">
+            	<label>Create Account</label>
+            </td>
+            <td></td>
+            </tr> 
+            <tr>   
+            	<td>
+                <label>Email:</label>
+                </td>
+                <td>
+                <input type="email" name="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required>
+            	
+                </td>
+            </tr>	
+            
+            <tr>   
+            	<td>
+                <label>Full Name:</label>
+                </td>
+                <td>
+            	<input type="text" id="fullname" name="fullname" required>
+                </td>
+            </tr>	
+            
+            
+            
+             <tr>   
+            	<td>
+                <label>Company Name:</label>
+                </td>
+                <td>
+            	<input type="text" id="company" name="company" required>
+                </td>
+            </tr>	
+            
+            
+             <tr>   
+            	<td>
+                <label>Password:</label>
+                </td>
+                <td>
+            	<input type="password" id="clave" name="clave" required>
+                </td>
+            </tr>	
+            
+            <td colspan="2">
+                <input type="submit" class="btnadd" value="Create" />
+ 
+             </td>
+             <td></td>   
+              </table>  
+            </form>
+         </div>
+    </div>        
+</body>
+</html>
+
